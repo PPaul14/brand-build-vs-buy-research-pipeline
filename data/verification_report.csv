@@ -7,7 +7,7 @@ tab_a,0,Minimalist (Uprising Science Pvt Ltd),High,quote,status_evidence,S006,,1
 tab_a,0,Minimalist (Uprising Science Pvt Ltd),High,quote,notes,S007,1,1,secondary buyout for a cash consideration of rs 2670 crores at a pre-money enterprise valuation of rs 2955 crores (subject to adjustments as set out in the spsa) and a primary infusion of rs 45 crores,100.0,PASS,"rising') comprising secondary buyout for a cash consideration of rs 2670 crores at a pre-money enterprise valuation of rs 2955 crores (subject to adjustments as set out in the spsa) and a primary infusion of rs 45 crores, with an eventual a",
 tab_a,0,Minimalist (Uprising Science Pvt Ltd),High,quote,notes,S007,,,"rs 2,706,44,95,728",,SKIPPED_SHORT,,
 tab_a,0,Minimalist (Uprising Science Pvt Ltd),High,quote,notes,S007,3,3,fy 2021-22: rs 103 crores / fy 2022-23: rs 184 crores / fy 2023-24: rs 347 crores,95.1,PASS,: fy 2021-22: rs 103 crores fy 2022-23: rs 184 crores fy 2023-24: rs 347 crores a,
-tab_a,0,Minimalist (Uprising Science Pvt Ltd),High,quote,notes,S007,,5,~347 cr turnover,75.0,FAIL,3 years turnover,NOT A SOURCE QUOTE: label from the D5 instruction; 347 itself PASSES the number check (S007)
+tab_a,0,Minimalist (Uprising Science Pvt Ltd),High,quote,notes,S007,,5,~347 cr turnover,75.0,FAIL,3 years turnover,NOT A SOURCE QUOTE: label from the revenue-basis check; 347 itself PASSES the number check (S007)
 tab_a,0,Minimalist (Uprising Science Pvt Ltd),High,quote,notes,S007,,,turnover,,SKIPPED_SHORT,,
 tab_a,0,Minimalist (Uprising Science Pvt Ltd),High,quote,notes,S007,,,revenue,,SKIPPED_SHORT,,
 tab_a,0,Minimalist (Uprising Science Pvt Ltd),High,quote,notes,S007,,4,with eventual acquisition,100.0,PASS,"olding in uprising, with eventual acquisition of the remaining 9.",

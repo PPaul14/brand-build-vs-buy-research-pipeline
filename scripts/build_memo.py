@@ -1,6 +1,6 @@
-"""Build output/BuyOrBuild_Report.pdf (reportlab; WeasyPrint needs GTK, see project rule D11).
+"""Build output/BuyOrBuild_Report.pdf (reportlab; WeasyPrint needs GTK).
 
-Five A4 pages: P1 answer + headline exhibit, P2 Part 1 detail, P3 Part 3 framework, P4 Part 4 call,
+Five A4 pages: P1 answer + headline exhibit, P2 model detail, P3 framework, P4 recommendation call,
 P5 story pitch + AI usage note + method box. Model numbers are read from data/model_outputs.csv so the memo
 cannot drift from the model; text figures come from notes/*.md.
 
@@ -226,7 +226,7 @@ story += [table(yr, [128] + [yw] * len(YRS), bold_rows=(7, 8), right_cols=tuple(
 story.append(PageBreak())
 
 # ================================================= PAGE 2 =====================================================
-story += part_head("Part 1", "Price the alternative: what building Minimalist would have cost")
+story += part_head("Model", "Price the alternative: what building Minimalist would have cost")
 story.append(P(
     "The model builds the brand year by year on Honasa's and Minimalist's cost ratios, divides the burn by the odds "
     "of success, adds the cost of delay and compares the total with the full cost of the deal."))
@@ -310,15 +310,15 @@ story.append(P(
 story.append(PageBreak())
 
 # ================================================= PAGE 3 =====================================================
-story += part_head("Part 3", "The framework: buy the cohort, build the channel")
+story += part_head("Framework", "The framework: buy the cohort, build the channel")
 story.append(P(
     "<b>Buy when a category is won on a cohort's trust and the parent is far from the channel that wins it. "
     "Build when it is won on price and reach the parent already owns.</b> Capability distance gets double weight "
     "because it is the variable that splits the record: FMCG parents' digital-first builds went <b>0 for 7</b>, while "
-    "D2C-native parents went <b>2 for 4</b> in the same categories. Price is a gate, set by Part 1."))
+    "D2C-native parents went <b>2 for 4</b> in the same categories. Price is a gate, set by the model."))
 story.append(exhibit(6, "Five variables, one score: S ≥ +2 means buy at up to 10.2× revenue; anything lower means build"))
 fw = [
-    ["Variable (weight)", "Pushes to BUY (+1)", "Pushes to BUILD (−1)", "Evidence (Tab A / Tab B / Part 1)"],
+    ["Variable (weight)", "Pushes to BUY (+1)", "Pushes to BUILD (−1)", "Evidence (Tab A / Tab B / model)"],
     ["<b>V1 Demand driver</b> (×1)", "Cohort-led: leaders built online, priced ≥1.5× mass, bought on trust in an ingredient, founder or identity",
      "Distribution-led: mass price point, bought where it is stocked", "Cohort-led builds by parents far from the channel: 0 of 10 scaled. "
      "Distribution-led builds: 7 of 9 survive"],
@@ -326,7 +326,7 @@ fw = [
      "Parent owns that channel (GT reach, captive retail, a D2C engine)",
      "0/7 vs 2/4. GCPL's Godrej Ninja: ₹2.22 Cr in FY26 (S073); the same parent's Fab: ₹150 Cr in year 1 (S161)"],
     ["<b>V3 Time window</b> (×1)", "Independents doubled within 3–4 years", "Mature or mostly unbranded category",
-     "Plix 8.1×, Yoga Bar 6.6× growth after their deals. Delay costs ₹2,456 Cr, about 2× the build (Part 1)"],
+     "Plix 8.1×, Yoga Bar 6.6× growth after their deals. Delay costs ₹2,456 Cr, about 2× the build (model)"],
     ["<b>V4 Price</b> (gate)", "Buy if a credible target is available at ≤10.2× revenue (100% basis)",
      "Buy only at ≤6.1× (cheaper than building)", "10.2× = ₹3,196 Cr ÷ 90.5% ÷ ₹347 Cr; 6.1× = the grid at p 29%, 4 yrs. Tab A median 4.9×; 20 of 22 priced deals at or below 10.2×"],
     ["<b>V5 Founder</b> (×1)", "Credibility sits with a founder who stays (staged deal, earn-out)",
@@ -374,7 +374,7 @@ story.append(P("<b>Known blind spot:</b> incumbent concentration. Distribution-l
 story.append(PageBreak())
 
 # ================================================= PAGE 4 =====================================================
-story += part_head("Part 4", "Make the call: Godrej Consumer Products in pet care")
+story += part_head("Recommendation", "Make the call: Godrej Consumer Products in pet care")
 story.append(box([P("<b>BUY.</b> GCPL should buy the pet-parent channel and cohort, and keep building the food in-house. "
                     "Lead target: Heads Up For Tails, on a staged path to control.", ANSWER)], border=ACCENT))
 story.append(Spacer(1, 6))
@@ -412,7 +412,7 @@ story.append(P(
     "loss-making at first and still worked, so GCPL should give its build time."))
 story.append(P(
     "<b>My response.</b> On a comparable clock the gap is about 70× (₹2.2 Cr against ₹150 Cr), which is too large to be "
-    "a matter of timing. Part 1 shows that what makes building expensive is the delay, not the build cost. In a category "
+    "a matter of timing. The model shows that what makes building expensive is the delay, not the build cost. In a category "
     "compounding at 25–50% a year, every year of waiting raises the price of each target above. GCPL should keep building "
     "the food, and buy the shelf and the trust."))
 story.append(P(
@@ -456,8 +456,8 @@ ai += bullets([
     "A live store and Wayback captures show it is still sold.",
 ], st("bul_box", fontSize=8.6, leading=11.2, leftIndent=8, spaceAfter=1.5))
 ai.append(P("<b>Left blank, not estimated:</b> consideration for 6 of 31 deals; revenue for 18 of 29 builds.", BOX))
-ai.append(P("<b>Time</b> (Claude run time): setup ~16 min · Tab A 42 · Tab B 18 · verification 12+ · Part 1 10 · "
-            "Parts 3–4 12 · workbook 6. My own elapsed time was about 7h40.", BOX))
+ai.append(P("<b>Time</b> (Claude run time): setup ~16 min · Tab A 42 · Tab B 18 · verification 12+ · model 10 · "
+            "framework and recommendation 12 · workbook 6. My own elapsed time was about 7h40.", BOX))
 
 link = (f"<a href='{SHEET}' color='#C8102E'><u>{SHEET}</u></a>" if SHEET != PLACEHOLDER
         else "<font color='#c0392b'><b>[Google Sheet link to be added]</b></font>")

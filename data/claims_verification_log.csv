@@ -58,16 +58,16 @@ C056,Campa relaunch date,2023-03,Relaunched in FY23 (RIL AR FY23 p.77); month UN
 C057,RCPL Independence launch,2022 (Gujarat; staples),Launched 2022-12-15 in Gujarat,S116,Y,RRVL media release (T1)
 C058,Honasa Staze launch,2024,Launched 2024-03-28,S122,Y,Honasa Reg 30 press release (T1)
 C059,Godrej Pet Care FY26 revenue (lead from user note),INR 2.22 Cr,"Rs 222.1 lakh = Rs 2.22 Cr total revenue FY26 (FY25 Rs 0.46 Cr, FY24 Rs 0.73 Cr)",S073,Y,GCPL Reg 30 filing
-C060,Minimalist FY24 profit (Part 1 benchmark),~Rs 11 Cr,Rs 10.83 Cr,S208,Y,Entrackr RoC-based report (T3); used only as context
-C061,Minimalist A&P intensity (Part 1 benchmark),~one-third of revenue,Rs 117 Cr / Rs 347 Cr = 34% FY24; Rs 154 Cr / Rs 514.8 Cr = 30% FY25,S208;S209,Y,Entrackr (T3); cross-checked against Honasa 34.4% FY24 (S163 T1)
-C062,The Derma Co ramp (Part 1 benchmark),~Rs 500 Cr in ~4 years,'Rs 500 Cr+ Net ARR ... within 50 Months of Launch' (ARR not audited revenue),S163,Y,Honasa AR FY24 PDF p.17 (T1); recall omitted that it is ARR
-C063,Honasa A&P % (Part 1 benchmark),~35% of revenue,34.4% FY24; 35.5% FY23,S163,Y,Honasa AR FY24 PDF p.37 (T1)
-C064,HUL discount rate (Part 1),~12% WACC,10.1% post-tax WACC (FY26); 11.3% (FY25),S134,N,HUL AR FY26 goodwill impairment table PDF p.149 (T1); recall overstated by ~1-2 pts
-C065,Cost of HUL's remaining 9.5% of Minimalist (Part 1),~Rs 284 Cr (9.5% pro rata at the 90.5% price),Rs 501 Cr PV of forward rights recognised by HUL,S134;S002,N,HUL AR FY26 Note 43(C) (T1); pro-rata recall understated the buy-side cost by ~Rs 217 Cr
-C066,HUL gross margin (Part 1),~50%,50.3% FY26,S134,Y,HUL AR FY26 PDF p.44 (T1)
-C067,Minimalist founding year (Part 1 ramp),2020,'Founded in 2020',S007,Y,HUL Reg 30 filing (T1)
-C068,Minimalist FY26 revenue under HUL (Part 1),~Rs 600 Cr,Rs 652 Cr from 2025-04-21 to 2026-03-31 (~Rs 690 Cr annualised),S134,N,HUL AR FY26 Note 43(I) (T1); recall understated
-C069,Drools L Catterton round (Part 4),L Catterton invested in Drools in 2024,"June 2023, $60M at $600M valuation (~10% stake)",S211,N,Entrackr dated the round; recall was a year late
-C070,HUFT revenue (Part 4),Search-tool summary: 'FY24 Rs 199.1 Cr ... FY23 revenue rose to Rs 312.8 Cr' (implies a fall),Two scopes: Rs 312.8 Cr FY23 (S215) vs Earth Paws Pvt Ltd Rs 199.1 Cr FY24 / 236.8 Cr FY25 (S216); ARR Rs 400 Cr Dec-2025 (S214),S215;S216;S214,N,AI search summary merged two entity scopes into one series; read both pages and logged the conflict
-C071,Drools FY25 revenue (Part 4),Search-tool summary: Rs 918 Cr FY25,9M FY25 Rs 686.4 Cr (ICRA); full-year FY25 not confirmed,S210,N,"Not in any fetched page; used ICRA 9M figure (~Rs 915 Cr annualised), FY25 marked UNCONFIRMED"
-C072,Supertails valuation (Part 4),Search-tool summary: ~$130M post-money (Feb 2026),Not stated in Business Today or Entrackr articles,S213;S212,N,"Fetched both articles; valuation absent, kept as UNCONFIRMED"
+C060,Minimalist FY24 profit (model benchmark),~Rs 11 Cr,Rs 10.83 Cr,S208,Y,Entrackr RoC-based report (T3); used only as context
+C061,Minimalist A&P intensity (model benchmark),~one-third of revenue,Rs 117 Cr / Rs 347 Cr = 34% FY24; Rs 154 Cr / Rs 514.8 Cr = 30% FY25,S208;S209,Y,Entrackr (T3); cross-checked against Honasa 34.4% FY24 (S163 T1)
+C062,The Derma Co ramp (model benchmark),~Rs 500 Cr in ~4 years,'Rs 500 Cr+ Net ARR ... within 50 Months of Launch' (ARR not audited revenue),S163,Y,Honasa AR FY24 PDF p.17 (T1); recall omitted that it is ARR
+C063,Honasa A&P % (model benchmark),~35% of revenue,34.4% FY24; 35.5% FY23,S163,Y,Honasa AR FY24 PDF p.37 (T1)
+C064,HUL discount rate (model),~12% WACC,10.1% post-tax WACC (FY26); 11.3% (FY25),S134,N,HUL AR FY26 goodwill impairment table PDF p.149 (T1); recall overstated by ~1-2 pts
+C065,Cost of HUL's remaining 9.5% of Minimalist (model),~Rs 284 Cr (9.5% pro rata at the 90.5% price),Rs 501 Cr PV of forward rights recognised by HUL,S134;S002,N,HUL AR FY26 Note 43(C) (T1); pro-rata recall understated the buy-side cost by ~Rs 217 Cr
+C066,HUL gross margin (model),~50%,50.3% FY26,S134,Y,HUL AR FY26 PDF p.44 (T1)
+C067,Minimalist founding year (model ramp),2020,'Founded in 2020',S007,Y,HUL Reg 30 filing (T1)
+C068,Minimalist FY26 revenue under HUL (model),~Rs 600 Cr,Rs 652 Cr from 2025-04-21 to 2026-03-31 (~Rs 690 Cr annualised),S134,N,HUL AR FY26 Note 43(I) (T1); recall understated
+C069,Drools L Catterton round (recommendation),L Catterton invested in Drools in 2024,"June 2023, $60M at $600M valuation (~10% stake)",S211,N,Entrackr dated the round; recall was a year late
+C070,HUFT revenue (recommendation),Search-tool summary: 'FY24 Rs 199.1 Cr ... FY23 revenue rose to Rs 312.8 Cr' (implies a fall),Two scopes: Rs 312.8 Cr FY23 (S215) vs Earth Paws Pvt Ltd Rs 199.1 Cr FY24 / 236.8 Cr FY25 (S216); ARR Rs 400 Cr Dec-2025 (S214),S215;S216;S214,N,AI search summary merged two entity scopes into one series; read both pages and logged the conflict
+C071,Drools FY25 revenue (recommendation),Search-tool summary: Rs 918 Cr FY25,9M FY25 Rs 686.4 Cr (ICRA); full-year FY25 not confirmed,S210,N,"Not in any fetched page; used ICRA 9M figure (~Rs 915 Cr annualised), FY25 marked UNCONFIRMED"
+C072,Supertails valuation (recommendation),Search-tool summary: ~$130M post-money (Feb 2026),Not stated in Business Today or Entrackr articles,S213;S212,N,"Fetched both articles; valuation absent, kept as UNCONFIRMED"

@@ -1,4 +1,4 @@
-"""Part 1: price the alternative. What would it cost HUL, risk-adjusted, to build a digital-first
+"""Model: price the alternative. What would it cost HUL, risk-adjusted, to build a digital-first
 active-skincare brand to Rs 347 Cr revenue, and what is the breakeven acquisition price?
 
 Reads data/assumptions.csv (low/base/high for every driver). Writes data/model_outputs.csv and charts to

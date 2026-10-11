@@ -31,7 +31,7 @@ ROWS = [
          notes=("Announced 2025-01-22 (S007 p.1: 'secondary buyout for a cash consideration of INR 2670 crores at a pre-money Enterprise Valuation of INR 2955 crores (subject to adjustments as set out in the SPSA) and a primary infusion of INR 45 crores'); "
                 "CCI approval 2025-03-17; completed 2025-04-21 for total cash consideration 'INR 2,706,44,95,728' incl. primary (S002 p.1) = INR 2,706.45 Cr (press rounds down to 2,706.44). consideration_inr_cr uses the completion figure. "
                 "Turnover S007 p.3: 'FY 2021-22: INR 103 Crores / FY 2022-23: INR 184 Crores / FY 2023-24: INR 347 Crores'; ARR >INR 500 Cr (Dec-24 quarter, unaudited). "
-                "D5 check: '~347 Cr turnover' CONFIRMED against the filing; filing calls it 'turnover', Entrackr calls it 'revenue' (same number). "
+                "Revenue-basis check: '~347 Cr turnover' CONFIRMED against the filing; filing calls it 'turnover', Entrackr calls it 'revenue' (same number). "
                 "Remaining 9.5% 'with eventual acquisition'; press release: 'path to acquire the balance stake in two years'. Multiple on EV basis = 2955/347 = 8.5x. See conflicts.md (2,670 vs 2,706.44 vs 2,955).")),
     dict(parent="Hindustan Unilever Ltd", brand="OZiva (Zywie Ventures Pvt Ltd)", category="Wellness-Nutrition&Supplements",
          year_start=2023, consideration_inr_cr=264.28, stake_pct=51, deal_structure="outright_majority",
@@ -45,7 +45,7 @@ ROWS = [
          notes=("Announced 2022-12-08 (S008): agreement to acquire 100% in 2 tranches; 'Total consideration for acquisition of the first tranche: INR 264.28 Crores'; 51% first tranche, 'Balance 49.00%... after the expiry of a period of 3 years'. "
                 "Completed first tranche 2023-01-11 (S005), so year_start=2023 (announced 2022). Turnover S008 p.2: 'turnover from operations of INR 124.17 Crores for the financial year 2021-2022'. "
                 "Second tranche approved 2026-02-12 (S009) and completed 2026-02-13 (S003) at INR 824 Cr for 49%: implied 100% value ~INR 1,682 Cr vs ~INR 518 Cr at first tranche (264.28/0.51, post-money incl. primary). "
-                "deal_structure = outright_majority (51% at first completion; contracted top-up noted, not reclassified per D6).")),
+                "deal_structure = outright_majority (51% at first completion; contracted top-up noted, not reclassified per the what-vs-how rule).")),
     dict(parent="Hindustan Unilever Ltd", brand="Wellbeing Nutrition (Nutritionalab Pvt Ltd)", category="Wellness-Nutrition&Supplements",
          year_start=2023, consideration_inr_cr=70.00, stake_pct=19.8, deal_structure="minority_no_path",
          revenue_inr_cr=19.40, revenue_fy="FY22", revenue_basis="turnover as stated in Reg 30 annexure; not labelled ops vs total income",
@@ -57,7 +57,7 @@ ROWS = [
          source_ids="S001;S012;S009;S011", confidence="High",
          notes=("Announced 2022-12-08 (S001 p.3: 'INR 70.00 Crores for the acquisition of proposed stake'; 'agreed to acquire 19.8% shareholding'); completed 2023-01-04 (S012). "
                 "Turnover S001 p.3: FY22 19.40 / FY21 5.33 / FY20 2.14 (INR Cr). Accounted as a joint venture under the equity method (S009). "
-                "deal_structure = minority_no_path (added in D12): a 19.8% stake with no disclosed option or schedule to increase; minority_with_path needs rights to increase, and none were found. "
+                "deal_structure = minority_no_path (non-controlling stake rule): a 19.8% stake with no disclosed option or schedule to increase; minority_with_path needs rights to increase, and none were found. "
                 "Arguably an investment, not an acquisition; kept as a core row because it shows the exit route (bought 70, sold ~307 = ~4.4x in ~3 years).")),
     # ---------------- ITC ----------------
     dict(parent="ITC Ltd", brand="Yoga Bar (Sproutlife Foods Pvt Ltd)", category="Food-Snacks&Bars",
@@ -98,7 +98,7 @@ ROWS = [
          source_ids="S020;S022;S033", confidence="High",
          notes=("Announced 2025-04-17 (S020): 'Consideration of up to Rs 472.50 crores on a cash-free debt-free basis... comprising Rs 400 crores payable upfront at Closing and up to Rs 72.50 crores payable in the next 24 months'. Presentation: 'Additional Founders Consideration of up to Rs. 72.5 cr... basis pre-agreed criteria'; founder Raj Seelam stays 2 years. "
                 "Completed 2025-06-13 (S022). consideration_inr_cr = the maximum 472.5 (upfront 400 + earn-out); upfront-only multiple = 400/306.1 = 1.31x. "
-                "Turnover S020 p.4 (consolidated): '2023-24 Rs 306.1 crores 2022-23 Rs 327.3 crores 2021-22 Rs 326.7 crores' - flat-to-declining before the deal. Earn-out not counted as FOUNDER_TEAM: price is 1.5x revenue, so people are not the primary asset (D6).")),
+                "Turnover S020 p.4 (consolidated): '2023-24 Rs 306.1 crores 2022-23 Rs 327.3 crores 2021-22 Rs 326.7 crores' - flat-to-declining before the deal. Earn-out not counted as FOUNDER_TEAM: price is 1.5x revenue, so people are not the primary asset (what-vs-how rule).")),
     dict(parent="ITC Ltd", brand="Prasuma (Ample Foods Pvt Ltd)", category="Food-Frozen&ReadyToCook",
          year_start=2025, consideration_inr_cr=131, stake_pct=43.75, deal_structure="staged_to_control",
          revenue_inr_cr=116, revenue_fy="FY24", revenue_basis="revenue_from_operations (AFPL consolidated, sales to third parties incl. sales to MSPL)",
@@ -389,7 +389,7 @@ ROWS = [
          status_evidence="S110: 'Shares / voting rights acquired... 65,48,935 51.00% 74,00,29,655 Cash'; open offer 'at a price of INR 115.50 per Offer Share'",
          source_url="https://www.bseindia.com/xml-data/corpfiling/AttachHis/fea041df-8810-409c-94b9-e89ad604024e.pdf",
          source_ids="S110;S111", confidence="High",
-         notes=("SPECIAL CASE: acquirer is Reliance Consumer Products Ltd (RCPL), a wholly owned subsidiary of Reliance Retail Ventures, counted under listed parent Reliance Industries Ltd (D4). RIL itself filed no Reg 30 for this size of deal; T1 evidence is the TARGET's SEBI SAST filings (Lotus is BSE-listed). "
+         notes=("SPECIAL CASE: acquirer is Reliance Consumer Products Ltd (RCPL), a wholly owned subsidiary of Reliance Retail Ventures, counted under listed parent Reliance Industries Ltd (listed-parent rule). RIL itself filed no Reg 30 for this size of deal; T1 evidence is the TARGET's SEBI SAST filings (Lotus is BSE-listed). "
                 "SPA 2022-12-29: 51% from the promoters 'at a price of INR 113.00 per Sale Share, for a total consideration of INR 74,00,29,655' (S110); plus preferential issue of redeemable preference shares to RCPL (S111). Completion of the SPA ~May 2023 (Reg 29 disclosures 2023-05-27); exact date UNCONFIRMED. "
                 "Revenue S111: 'Income from Operations' INR Cr - 9M FY23 37.11 (unaudited), FY22 86.97, FY21 47.87, FY20 69.89. Category 'Other' = confectionery (no bucket in the taxonomy).")),
     dict(parent="Reliance Industries Ltd (via Reliance Consumer Products Ltd)", brand="Campa (brand bought from Pure Drinks Group)", category="Beverages",
@@ -414,7 +414,7 @@ ROWS = [
          source_url="https://www.afaqs.com/news/brands/reliance-consumer-to-acquire-50-stake-in-sasyo-hajoori-beverages",
          source_ids="S114;S115", confidence="Medium",
          notes=("SPECIAL CASE (RCPL under RIL). Announced Jan 2023 (S114, S115, both carrying RCPL's release): 'will acquire 50% equity stake in Gujarat-headquartered Sosyo Hajoori Beverages Private Limited'. "
-                "JOINT VENTURE: a 50:50 JV, confirmed by both sources - S114: 'Speaking on the joint venture with RCPL'; 'The existing promoters, Hajoori family, will continue to own the remaining stake in SHBPL'. ""deal_structure = minority_no_path (D12 covers non-controlling stakes of 50% or less, including 50:50 JVs): no disclosed route for RCPL to take control. ""consideration UNCONFIRMED (not disclosed); revenue UNCONFIRMED. "
+                "JOINT VENTURE: a 50:50 JV, confirmed by both sources - S114: 'Speaking on the joint venture with RCPL'; 'The existing promoters, Hajoori family, will continue to own the remaining stake in SHBPL'. ""deal_structure = minority_no_path (the minority_no_path rule covers non-controlling stakes of 50% or less, including 50:50 JVs): no disclosed route for RCPL to take control. ""consideration UNCONFIRMED (not disclosed); revenue UNCONFIRMED. "
                 "Medium = two T3 sources that agree (both rely on the same company release). Completion date UNCONFIRMED.")),
 ]
 

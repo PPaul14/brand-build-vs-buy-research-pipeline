@@ -1,4 +1,4 @@
-"""Part 1 headline chart for the memo: build-equivalent cost vs buy all-in cost (base case, 100% basis, Rs Cr).
+"""Headline chart for the memo: build-equivalent cost vs buy all-in cost (base case, 100% basis, Rs Cr).
 Values from data/model_outputs.csv (scripts/build_model.py). Output: output/charts/p1_headline.png
 """
 from pathlib import Path

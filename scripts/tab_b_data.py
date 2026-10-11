@@ -51,7 +51,7 @@ ROWS = [
          vocab_rationale="HUL's own ayurvedic masterbrand: an attempt to build an ayurveda franchise in-house rather than buy one (contrast Indulekha, bought 2016).",
          status_today="Niche",
          status_evidence=(f"P2: in AR FY20 ({ar('HUL',20)} p.13: 'The master brand LEVER Ayush continued its momentum in the focused market - South India') and FY21 ({ar('HUL',21)} p.14: 'LEVER Ayush, the master brand maintained focus on its key market in southern India'); "
-                          "0 mentions FY22-FY26. P3: leverayush.com gives no response (SSL error); HUL brand pages are JS-rendered (D8) - current availability UNCONFIRMED (S207)."),
+                          "0 mentions FY22-FY26. P3: leverayush.com gives no response (SSL error); HUL brand pages are JS-rendered - current availability UNCONFIRMED (S207)."),
          source_ids=f"{ar('HUL',20)};{ar('HUL',21)};S207", confidence="Low",
          notes=("Launch year conflict: 2001 vs 2002 in secondary write-ups (T4 case studies via search; HUL primary not found) - see conflicts.md. "
                 "Relaunch: Dec 2016 with ~20 mass-priced products (Rs 30-130) in TN, Kerala, AP, Telangana, Karnataka, a response to Patanjali (T4 case-study sources via search, not saved as evidence). "
@@ -121,7 +121,7 @@ ROWS = [
          source_ids=f"{ar('Honasa',26)};S120;{ar('Honasa',24)};S121;S125", confidence="High",
          notes=(f"Launch-month conflict: AR FY24 ({ar('Honasa',24)} p.12) 'Since The Derma Co's launch in March 2020' vs AR FY26 ({ar('Honasa',26)} p.13) 'The Derma Co, launched in February 2020' - year 2020 either way; see conflicts.md. "
                 "Break-even: 'achieving break-even in all quarters of FY24' (S121 p.2). "
-                "LISTING CAVEAT: built while Honasa was unlisted (IPO Nov 2023); valid for Tab B because Honasa is listed now and discloses brand-level ARR, but it was not a listed-company build decision (cf. D13 for Tab A).")),
+                "LISTING CAVEAT: built while Honasa was unlisted (IPO Nov 2023); valid for Tab B because Honasa is listed now and discloses brand-level ARR, but it was not a listed-company build decision (cf. the listed-at-deal-time rule for Tab A).")),
     dict(parent=HON, brand="Aqualogica", category="BPC-Skincare", year_start=2021, what_was_acquired="COHORT_EQUITY",
          vocab_rationale="Hydration-led, fruit-plus-actives skincare for younger, climate-specific needs: a sharper sub-cohort than Mamaearth or The Derma Co served.",
          status_today="Scaled", revenue_inr_cr=200, revenue_fy="FY26",
@@ -287,20 +287,20 @@ ROWS = [
          status_evidence=(f"P1: RIL AR FY26 ({ar('RIL',26)} p.47): 'Independence brand achieved ~Rs 2,600 crore sales'; AR FY25 ({ar('RIL',25)} p.34): 'Flagship brands such as Campa and Independence are gaining momentum'. P2: RIL AR FY23-FY26."),
          source_ids=f"S116;{ar('RIL',23)};{ar('RIL',25)};{ar('RIL',26)}", source_url=url("S116"), confidence="Medium",
          notes=("Launched 2022-12-15 in Gujarat (S116 p.1: 'Reliance Consumer Products Ltd., the FMCG arm and a fully owned subsidiary of Reliance Retail Ventures Ltd., today launched its indigenous made-for-India consumer packaged goods brand, INDEPENDENCE in Gujarat'). "
-                "Parent per D4: RCPL counted under RIL (listed). CAVEAT: sold heavily through the group's own retail (Reliance Retail/JioMart), a captive channel no other Tab B parent has - scale is not comparable like-for-like. Medium (single T1 figure, basis unstated).")),
+                "Parent per the listed-parent rule: RCPL counted under RIL (listed). CAVEAT: sold heavily through the group's own retail (Reliance Retail/JioMart), a captive channel no other Tab B parent has - scale is not comparable like-for-like. Medium (single T1 figure, basis unstated).")),
     dict(parent=RIL, brand="Campa (HYBRID: dormant name bought 2022, brand rebuilt in-house)", category="Beverages", year_start=2023,
          what_was_acquired="CATEGORY_ENTRY",
          vocab_rationale="Reliance had no beverage brand; it bought only a dormant trademark (recall, no revenue or team) and built the business itself - entry by build on a bought name.",
          status_today="Scaled", revenue_inr_cr=4700, revenue_fy="FY26", revenue_basis="gross sales ('Rs 4,700+ crore in gross sales'); not net revenue",
          status_evidence=(f"P1: RIL AR FY26 ({ar('RIL',26)} p.47): 'Campa achieved Rs 4,700+ crore in gross sales in FY 2025-26. In March 2026, it became India's fourth-largest carbonated soft drinks brand'; AR FY25 ({ar('RIL',25)} p.34): '>10% market share in sparkling beverage category in select states'. P2: RIL AR FY23-FY26."),
          source_ids=f"{ar('RIL',23)};{ar('RIL',25)};{ar('RIL',26)};S112", confidence="Medium",
-         notes=(f"HYBRID - excluded from the pure-build base rate; discussed in Part 3. Trademark bought from Pure Drinks Group in 2022 (~Rs 22 Cr per PTI citing unnamed sources, S112, T3; also Tab A row). "
+         notes=(f"HYBRID - excluded from the pure-build base rate; discussed in the framework. Trademark bought from Pure Drinks Group in 2022 (~Rs 22 Cr per PTI citing unnamed sources, S112, T3; also Tab A row). "
                 f"Relaunch 2023 (RIL AR FY23 {ar('RIL',23)} p.77: 'The FMCG business launched several products during the year including Independence brand and the iconic beverage brand, Campa'); relaunch month Mar 2023 per recall (C056) - month UNCONFIRMED by primary source. "
                 "Beverage investment of up to Rs 8,000 Cr (S113, T4 - not relied on). Same captive-retail caveat as Independence.")),
 ]
 
 
-# base_rate_flag: which rows count toward the Part 1 build base rate (data/base_rates.csv). Default 'included'.
+# base_rate_flag: which rows count toward the model's build base rate (data/base_rates.csv). Default 'included'.
 BASE_RATE_FLAG = {
     "Godrej Fab": "excluded_out_of_scope",      # home care (liquid detergent)
     "Veggie Clean": "excluded_out_of_scope",    # home hygiene (produce wash); parent called it 'tactical'

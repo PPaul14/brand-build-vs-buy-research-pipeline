@@ -373,7 +373,7 @@ def model_block(ws, top, title, P, C):
 
 
 def build_model_tab(ws, refs):
-    ws.cell(1, 1, "Part 1: what would it cost HUL to build Minimalist? Live model (all inputs on Assumptions)").font = \
+    ws.cell(1, 1, "Model: what would it cost HUL to build Minimalist? Live model (all inputs on Assumptions)").font = \
         Font(bold=True, size=13)
     ws.cell(2, 1, "₹ Cr, pre-tax, Y0 = FY26. Build revenue is conditional on success; P(success) enters via "
                   "risk-adjusted cost. Mirrors scripts/build_model.py.")
@@ -506,7 +506,7 @@ def readme_tab(ws):
          "for base rates).", None),
         ("Vocabulary: controlled values and inclusion rules for category, what_was_acquired, deal_structure, "
          "row_type, base_rate_flag.", None),
-        ("Assumptions: every Part 1 model driver (low / base / high) with source IDs; Bull/Base/Bear columns "
+        ("Assumptions: every model driver (low / base / high) with source IDs; Bull/Base/Bear columns "
          "are formulas. Edit blue cells only.", None),
         ("Build_Model: live 10-year build P&L, cost of delay and breakeven price for Base, Bull and Bear.", None),
         ("Sensitivity: live key-output summary and P(success) x years-to-scale grid; static tornado and Monte "
@@ -520,7 +520,7 @@ def readme_tab(ws):
         ("AR_Mentions: brand-mention counts in parents' annual reports, FY20-FY26 (status tracking for builds).",
          None),
         ("Base_Rates: build success rates from Tab B (Wilson 95% intervals) that feed P(success).", None),
-        ("Framework_Scores: Part 3 back-test, each row's V1-V5 scores, the predicted side and whether it was "
+        ("Framework_Scores: Framework back-test, each row's V1-V5 scores, the predicted side and whether it was "
          "right.", None),
         ("", None),
         ("Source tiers", "h"),

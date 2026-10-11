@@ -2,7 +2,7 @@
 
 claude_run_time_min = minutes logged by this script; my_elapsed_time is filled in by hand.
 
-  python scripts/timelog.py start "Tab A research" --part "Part 2"
+  python scripts/timelog.py start "Tab A research" --part "Tables"
   python scripts/timelog.py end   "Tab A research" [--notes "..."]
   python scripts/timelog.py add   "Prompt 0 setup" --part Setup --start 2026-10-10T11:41 --end 2026-10-10T11:52 --notes "..."
 

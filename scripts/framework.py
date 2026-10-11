@@ -1,8 +1,8 @@
-"""Part 3: score every Tab A / Tab B row against the buy-vs-build framework and draw the matrix.
+"""Framework: score every Tab A / Tab B row against the buy-vs-build framework and draw the matrix.
 
 Score S = V1 + 2*V2 + V3 + V5 (V3 = 'spike' is a gate: do not enter). V4 (price) is a gate, not a score.
-  S >= 2  -> BUY side : buy a target at <= 10.2x revenue (Part 1 breakeven, p = 11%)
-  S <= 1  -> BUILD side: build; buying is still fine at <= 6.1x (Part 1 grid, p = 29%, T = 4 yrs)
+  S >= 2  -> BUY side : buy a target at <= 10.2x revenue (model breakeven, p = 11%)
+  S <= 1  -> BUILD side: build; buying is still fine at <= 6.1x (model grid, p = 29%, T = 4 yrs)
 Hit rules
   Build rows: BUY side predicts the build fails (Withdrawn/Niche); BUILD side predicts it survives (Scaled/Stable).
               Spike gate predicts failure. Unclear rows are not scored.
@@ -131,11 +131,11 @@ def draw(hit_line):
         ("V3 Time window", "x1",
          "Structural and fast: independents doubled within 3-4 yrs of purchase",
          "Mature or unbranded-heavy: a late entrant still wins on price. Spike (Covid): do not enter",
-         "Plix 8.1x, Yoga Bar 6.6x, Just Herbs 5.6x post-deal. Part 1: delay = Rs 2,456 Cr, 2x the build; build wins only at scale in <=4 yrs. Spike launches 0/2"),
+         "Plix 8.1x, Yoga Bar 6.6x, Just Herbs 5.6x post-deal. Model: delay = Rs 2,456 Cr, 2x the build; build wins only at scale in <=4 yrs. Spike launches 0/2"),
         ("V4 Price of a credible target", "gate",
          "BUY side: a target exists at <= 10.2x revenue (100% basis)",
          "BUILD side: still buy if <= 6.1x (cheaper than building revenue)",
-         "Part 1 breakeven Rs 3,196 Cr / 90.5% / Rs 347 Cr = 10.2x (p 11%); grid p 29%, 4 yrs = 6.1x. Tab A median 4.9x; 20 of 22 deals <= 10.2x"),
+         "model breakeven Rs 3,196 Cr / 90.5% / Rs 347 Cr = 10.2x (p 11%); grid p 29%, 4 yrs = 6.1x. Tab A median 4.9x; 20 of 22 deals <= 10.2x"),
         ("V5 Founder", "x1",
          "Credibility sits with a founder who stays (staged / earn-out)",
          "Parent is itself founder-run, or credibility sits in price and reach",
@@ -148,7 +148,7 @@ def draw(hit_line):
     top, hdr_h, row_h = 0.865, 0.05, 0.118
     ax.text(0.08, 0.955, "Buy or build? A five-variable test for a conglomerate entering a new category",
             fontsize=10.5, fontweight="bold", color=INK, va="center")
-    for x, w, h, c in zip(xs, W, ["Variable", "Weight", "Pushes to BUY when", "Pushes to BUILD when", "Evidence (Tab A / Tab B / Part 1)"],
+    for x, w, h, c in zip(xs, W, ["Variable", "Weight", "Pushes to BUY when", "Pushes to BUILD when", "Evidence (Tab A / Tab B / model)"],
                           [INK, INK, BUY, BUILD, INK]):
         ax.text(x + 0.08, top + hdr_h / 2, h, fontsize=7.2, fontweight="bold", color=c, va="center")
     ax.plot([0.08, sum(W) - 0.08], [top, top], color=INK2, lw=0.8)
@@ -165,7 +165,7 @@ def draw(hit_line):
     ax.text(0.08, yb, rule, fontsize=6.9, color=INK, fontweight="bold", va="center", linespacing=1.5)
     ax.text(0.08, yb - 0.075, hit_line, fontsize=6.5, color=INK2, va="center")
     ax.text(0.08, 0.025, "Source: Analysis of Tab A (31 deals) and Tab B (29 builds), built from annual reports, Reg 30 filings and "
-            "company statements; Part 1 model (data/model_outputs.csv). Scores: data/framework_scores.csv.",
+            "company statements; the build model (data/model_outputs.csv). Scores: data/framework_scores.csv.",
             fontsize=5.6, color=MUTED, va="center")
     out = ROOT / "output/charts/framework.png"
     fig.savefig(out, dpi=220, facecolor=SURFACE)

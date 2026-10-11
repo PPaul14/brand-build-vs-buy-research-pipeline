@@ -224,7 +224,7 @@ Same format. For builds, conflicts are mostly about **dates** (launch vs relaunc
 
 ---
 
-## Part 1 model: Minimalist FY22 revenue
+## Model: Minimalist FY22 revenue
 
 | Figure | Source (tier) | What it measures |
 |---|---|---|
@@ -233,7 +233,7 @@ Same format. For builds, conflicts are mostly about **dates** (launch vs relaunc
 
 **Verdict:** Small gap, likely basis (turnover vs. revenue from operations, or standalone vs. consolidated). Not a model input; ramp uses FY24 ₹347 Cr (both agree). **Used:** ₹103 Cr (T1).
 
-## Part 1 model: cost of the remaining 9.5% of Minimalist
+## Model: cost of the remaining 9.5% of Minimalist
 
 | Figure | Source (tier) | What it measures |
 |---|---|---|
@@ -242,7 +242,7 @@ Same format. For builds, conflicts are mostly about **dates** (launch vs relaunc
 
 **Verdict:** ₹501 Cr is HUL's own accounting estimate; the pro-rata figure understates it. **Used:** base ₹501 Cr, low ₹284 Cr (assumption A20).
 
-## Part 1 model: Minimalist pro-forma FY26 revenue in HUL AR
+## Model: Minimalist pro-forma FY26 revenue in HUL AR
 
 | Figure | Source (tier) | What it measures |
 |---|---|---|
@@ -252,12 +252,12 @@ Same format. For builds, conflicts are mostly about **dates** (launch vs relaunc
 **Verdict:** ₹89 Cr not used. **Used:** ₹652 Cr, annualised ₹690 Cr (A18).
 
 
-## Heads Up For Tails revenue (Part 4)
+## Heads Up For Tails revenue (recommendation)
 - Rs 312.8 Cr FY23 revenue from operations (Entrackr, S215).
 - Rs 199.1 Cr FY24 / Rs 236.8 Cr FY25 for Earth Paws Pvt Ltd (Inc42 data page, S216) - appears to be a narrower entity scope, so not comparable with S215.
 - Rs 400 Cr ARR, company-stated run rate, Dec 2025 (Entrackr, S214) - not audited revenue.
-- Resolution: Part 4 prices HUFT on a Rs 240-400 Cr revenue band (FY25 entity figure to stated ARR); Low confidence.
+- Resolution: The recommendation prices HUFT on a Rs 240-400 Cr revenue band (FY25 entity figure to stated ARR); Low confidence.
 
-## Drools revenue and valuation (Part 4)
+## Drools revenue and valuation (recommendation)
 - Rs 714.90 Cr FY24 revenue from operations (Entrackr, S211). Rs 686.4 Cr in 9M FY25 (ICRA, S210), ~Rs 915 Cr annualised. FY25 full year UNCONFIRMED (a search summary said Rs 918 Cr; not found in any page - C071).
 - $600M valuation (June 2023, L Catterton, ~10%, S211) vs 'unicorn' (>= $1bn) claimed after Nestle's undisclosed minority stake (May 2025, S211) - a company claim, terms undisclosed.

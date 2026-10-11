@@ -11,7 +11,7 @@ deal_structure,staged_to_control,,"First tranche <=50%, with contracted further 
 deal_structure,minority_with_path,,"Minority stake with options/rights to increase, but no committed schedule to control"
 deal_structure,minority_no_path,,"Non-controlling stake (<=50%, incl. 50:50 JVs) with no disclosed option, right or schedule to reach control"
 row_type,core,,year_start >= 2020; counts toward the study's minimums (Tab A >= 10; Tab B >= 5)
-row_type,calibration,,"Pre-2020 build or deal, used only to calibrate the Part 1 success rate (e.g. Lever Ayush, Bingo!, Yippee!)"
+row_type,calibration,,"Pre-2020 build or deal, used only to calibrate the model's success rate (e.g. Lever Ayush, Bingo!, Yippee!)"
 category,BPC-Skincare,,"Face and body skincare, incl. actives/derma"
 category,BPC-Haircare,,"Hair oils, shampoos, hair treatments"
 category,BPC-MensGrooming,,"Brands built for men (beard, grooming, men's fragrance/deo)"

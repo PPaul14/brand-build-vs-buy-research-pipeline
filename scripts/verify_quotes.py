@@ -156,7 +156,7 @@ def derived_check(v, sids):
 
 # Manual triage of the checks the script cannot clear (verification pass 2026-10-10). (tab, brand prefix, item prefix) -> note
 TRIAGE = {
-    ("tab_a", "Minimalist", "~347 cr turnover"): "NOT A SOURCE QUOTE: label from the D5 instruction; 347 itself PASSES the number check (S007)",
+    ("tab_a", "Minimalist", "~347 cr turnover"): "NOT A SOURCE QUOTE: label from the revenue-basis check; 347 itself PASSES the number check (S007)",
     ("tab_a", "Earth Rhythm", "nykaa acquired 51%"): "NOT A SOURCE QUOTE: the AI recall being refuted (C023)",
     ("tab_a", "Dermicool", "rs 113 crore"): "Search snippet, explicitly UNCONFIRMED in notes and not used as a value",
     ("tab_a", "Dot & Key", "~rs 46.9 cr"): "Search snippet attributed to the RHP; explicitly UNCONFIRMED, consideration left blank",

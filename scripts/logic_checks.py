@@ -47,13 +47,13 @@ def checks(tab, r):
         if not YEAR_MIN <= y <= YEAR_MAX:
             add("year_start", "ERROR", f"{y:.0f} outside {YEAR_MIN}-{YEAR_MAX}")
         if r["row_type"] == "core" and y < 2020:
-            add("year_start", "ERROR", f"core row with year_start {y:.0f} < 2020 (D2)")
+            add("year_start", "ERROR", f"core row with year_start {y:.0f} < 2020 (core-row rule)")
         if r["row_type"] == "calibration" and y >= 2020:
             add("year_start", "WARN", f"calibration row with year_start {y:.0f} >= 2020")
     if r["revenue_inr_cr"] and not r["revenue_fy"]:
         add("revenue_fy", "ERROR", "revenue without FY")
     if r["revenue_inr_cr"] and not r["revenue_basis"]:
-        add("revenue_basis", "ERROR", "revenue without basis (D5)")
+        add("revenue_basis", "ERROR", "revenue without basis (revenue-basis rule)")
     if buy:
         stake, cons, rev, mult = f(r["stake_pct"]), f(r["consideration_inr_cr"]), f(r["revenue_inr_cr"]), f(r["revenue_multiple"])
         if r["deal_structure"] not in VOCAB["deal_structure"]:
