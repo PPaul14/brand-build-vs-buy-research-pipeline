@@ -1,0 +1,14 @@
+tab,row,brand,check,severity,detail
+tab_a,9,Organic India (Organic India Pvt Ltd),deal_structure,WARN,full_100 but stake_pct 99.99 (row records the tranche that took the parent to 100%; prior stake held earlier)
+tab_a,10,Beardo (Zed Lifestyle Pvt Ltd),deal_structure,WARN,full_100 but stake_pct 55.0 (row records the tranche that took the parent to 100%; prior stake held earlier)
+tab_a,13,Plix (Satiya Nutraceuticals Pvt Ltd),deal_structure,WARN,"staged_to_control but stake_pct 58.0: stake_pct sums all tranches, not the first one"
+tab_a,21,Earth Rhythm (Earth Rhythm Pvt Ltd),stake_pct,WARN,missing (multiple cannot be computed)
+tab_a,22,The Man Company (Helios Lifestyle Pvt Ltd),deal_structure,WARN,full_100 but stake_pct 49.6 (row records the tranche that took the parent to 100%; prior stake held earlier)
+tab_a,23,Brillare (Brillare Science Pvt Ltd),deal_structure,WARN,outright_majority with incremental stake_pct 22.66; check the post-step holding in notes
+tab_a,27,Banjara's (Vishal Personal Care Pvt Ltd),deal_structure,WARN,"staged_to_control but stake_pct 100.0: stake_pct sums all tranches, not the first one"
+tab_b,17,Tata Sampann (built by Tata Chemicals Ltd; merged into TCPL 2020),year_start,WARN,missing
+tab_b,18,Nykd by Nykaa,status_today,WARN,"Scaled on a non-revenue measure (GMV (gross merchandise value, '>Rs 150 c)"
+tab_b,19,Kay Beauty (co-created with Katrina Kaif),status_today,WARN,Scaled on a non-revenue measure (GMV ('crossed the GMV of Rs 240 crores'))
+tab_b,20,Bingo!,status_today,WARN,"Scaled on a non-revenue measure (annual consumer spend (retail value, 'ne)"
+tab_b,21,Sunfeast YiPPee!,status_today,WARN,"Scaled on a non-revenue measure (annual consumer spend (retail value, 'ne)"
+tab_b,28,"Campa (HYBRID: dormant name bought 2022, brand rebuilt in-house)",status_today,WARN,"Scaled on a non-revenue measure (gross sales ('Rs 4,700+ crore in gross s)"

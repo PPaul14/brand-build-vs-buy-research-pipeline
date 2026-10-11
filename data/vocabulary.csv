@@ -1,0 +1,31 @@
+field,value,tie_break_rank,inclusion_rule
+what_was_acquired,CATEGORY_ENTRY,1,Parent had no meaningful revenue in this category before the deal
+what_was_acquired,DEFENSIVE,2,"The main logic is denying the asset to a competitor (contested bidding, reported rival interest)"
+what_was_acquired,COHORT_EQUITY,3,"Parent was in the category, but the target had credibility with a consumer cohort the parent lacked"
+what_was_acquired,FOUNDER_TEAM,4,"The people are the primary asset: revenue small relative to price, founders retained via earn-out/lock-in, AND the parent states the team is the rationale"
+what_was_acquired,CAPABILITY,5,"The main asset is a capability (D2C engine, formulation IP, supply chain), not the brand"
+what_was_acquired,REVENUE_SCALE,6,Parent already had the category and cohort; the deal mainly adds revenue and share
+deal_structure,full_100,,100% acquired at first completion
+deal_structure,outright_majority,,">50% acquired at first completion; any later top-up of the remainder is noted, not reclassified"
+deal_structure,staged_to_control,,"First tranche <=50%, with contracted further tranches taking the parent to majority or 100%"
+deal_structure,minority_with_path,,"Minority stake with options/rights to increase, but no committed schedule to control"
+deal_structure,minority_no_path,,"Non-controlling stake (<=50%, incl. 50:50 JVs) with no disclosed option, right or schedule to reach control"
+row_type,core,,year_start >= 2020; counts toward the study's minimums (Tab A >= 10; Tab B >= 5)
+row_type,calibration,,"Pre-2020 build or deal, used only to calibrate the Part 1 success rate (e.g. Lever Ayush, Bingo!, Yippee!)"
+category,BPC-Skincare,,"Face and body skincare, incl. actives/derma"
+category,BPC-Haircare,,"Hair oils, shampoos, hair treatments"
+category,BPC-MensGrooming,,"Brands built for men (beard, grooming, men's fragrance/deo)"
+category,BPC-Baby&Mother,,Baby care and maternity personal care
+category,BPC-ColourCosmetics,,"Make-up/colour cosmetics (lips, face, eyes, nails)"
+category,Food-Snacks&Bars,,"Packaged snacks, bars, breakfast/muesli, noodles, chocolate-led snacking"
+category,Food-Staples&Organic,,"Atta, rice, pulses, oils, sugar, organic staples"
+category,Food-Ethnic&Condiments,,"Spices, masalas, sauces, ethnic cuisine mixes"
+category,Food-Frozen&ReadyToCook,,"Frozen, chilled and ready-to-cook foods"
+category,Wellness-Nutrition&Supplements,,"VMS, protein, ayurvedic/immunity wellness, health food drinks"
+category,Beverages,,Carbonated and non-alcoholic packaged beverages
+category,Other,,"Outside the above (home care, pet, apparel, confectionery gifting); flagged in notes"
+base_rate_flag,included,,Counts toward the Tab B base rate
+base_rate_flag,excluded_out_of_scope,,"Outside the BPC/food/wellness scope of the study (home care, pet, apparel)"
+base_rate_flag,excluded_captive_channel,,Scale driven by the parent's own retail channel (Reliance Retail/JioMart); not comparable
+base_rate_flag,excluded_hybrid,,"Bought name/asset, business built in-house; neither pure build nor pure buy"
+base_rate_flag,excluded_unclear,,Status cannot be called on the evidence (status_today = Unclear)

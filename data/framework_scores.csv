@@ -1,0 +1,61 @@
+table,route,row_type,parent,brand,status_today,revenue_multiple,v1_demand,v2_distance,v3_window,v5_founder,score,side,hit
+A,Buy,core,Hindustan Unilever Ltd,Minimalist,Subsidiary since 2025-04-21; founders Mohit & Rahul Yadav continue to run it; balance 9.5% to be acquired,8.62,C,1,1,1,5,BUY,hit
+A,Buy,core,Hindustan Unilever Ltd,OZiva,Wholly owned since 2026-02-13; balance 49% bought for INR 824 Cr; FY25 turnover INR 257.67 Cr (2.1x FY22),4.17,C,1,1,0,4,BUY,hit
+A,Buy,core,Hindustan Unilever Ltd,Wellbeing Nutrition,EXITED: HUL sold entire 19.8% to USV Pvt Ltd for ~INR 307 Cr (completed 2026-03-04); FY25 revenue from ops INR 118.48 Cr,18.22,C,1,1,0,4,BUY,miss
+A,Buy,core,ITC Ltd,Yoga Bar,Wholly owned since 2026-09-28; subsidiary (board control) from 2026-04-01; turnover FY26 INR 452 Cr (6.6x FY22),6.53,C,1,1,1,5,BUY,hit
+A,Buy,core,ITC Ltd,Mother Sparsh,Associate at 49.32% (2026-05-19); FY26 turnover INR 138.5 Cr; balance to 100% by Q1 FY2027-28 (extendable to Q1 FY2028-29),6.65,C,1,1,1,5,BUY,hit
+A,Buy,core,ITC Ltd,24 Mantra Organic,"Wholly owned from 2025-06-13; amalgamated into ITC Ltd (NCLT-sanctioned, appointed date 2025-06-13), so no longer a separate entity",1.54,C,1,0,0,3,BUY,hit
+A,Buy,core,ITC Ltd,Prasuma,Associate at 43.75%; next secondary (~Rs 56 Cr to 62.5%) due by Apr 2027; 100% by 2028-06-30,2.58,C,1,0,1,4,BUY,hit
+A,Buy,core,Tata Consumer Products Ltd,Soulfull,"Renamed Tata Consumer Soulfull, then amalgamated into Tata Consumer Products Ltd (scheme effective 2024-09-01); brand continues as Tata Soulfull",3.96,C,1,1,0,4,BUY,hit
+A,Buy,core,Tata Consumer Products Ltd,Ching's Secret / Smith & Jones,Subsidiary; stake 80% after buying 5% from Wildflower Private Trust on 2026-09-01; 20% still to be acquired (3-year window from 2024-02-01),7.23,D,-1,0,0,-3,BUILD,miss
+A,Buy,core,Tata Consumer Products Ltd,Organic India,Wholly owned subsidiary since 2024-12-13 (99.99% from 2024-04-16),5.86,C,1,1,0,4,BUY,hit
+A,Buy,core,Marico Ltd,Beardo,Wholly owned since 2020-06-30; FY25 turnover INR 214.17 Cr (2.7x FY20); business being moved into Marico Ltd via voluntary liquidation of Zed Lifestyle (announced 2026-01-27),,C,1,1,1,5,BUY,untested
+A,Buy,core,Marico Ltd,Just Herbs,Wholly owned since 2024-09-17 (balance 40% for up to INR 70 Cr); FY24 turnover INR 96.03 Cr (5.6x FY21),,C,1,1,1,5,BUY,untested
+A,Buy,core,Marico Ltd,True Elements,Wholly owned since 2025-10-17 (balance 46.02% for up to INR 138 Cr); FY25 turnover INR 164.38 Cr (3.0x FY22),,C,1,1,1,5,BUY,untested
+A,Buy,core,Marico Ltd,Plix,"Subsidiary at 84.09% (2026-10-05, INR 1,012.03 Cr for 24.09%); FY26 consolidated turnover INR 864.31 Cr (8.1x FY23); last 14.09% due July 2027",5.98,C,1,1,1,5,BUY,hit
+A,Buy,core,Marico Ltd,Cosmix,Subsidiary at 60% since 2026-02-05; Marico has a right to buy the rest after FY29,7.38,C,1,1,1,5,BUY,hit
+A,Buy,core,Marico Ltd,4700BC,Subsidiary at 93.27% since 2026-01-29; founder retains a stake; Marico can buy it after 3 years,2.47,C,1,1,1,5,BUY,hit
+A,Buy,core,Dabur India Ltd,Badshah Masala,Subsidiary at 51% since 2023-01-02; balance 49% due after 5 years (~2028); Badshah portfolio +12% in Q4 FY26,6.09,D,-1,-1,0,-4,BUILD,hit
+A,Buy,core,Dabur India Ltd,Sesa,Merger into Dabur sanctioned by NCLT on 2026-09-24; Sesa Care to be dissolved; Dabur shares issued to Sesa shareholders (True North),2.4,D,-1,-1,0,-4,BUILD,hit
+A,Buy,core,Godrej Consumer Products Ltd,Park Avenue,"Integrated into GCPL (slump sale, completed 2023-05-08); post-deal brand sales not separately disclosed",4.54,D,-1,-1,0,-4,BUILD,hit
+A,Buy,core,Godrej Consumer Products Ltd,Muuchstac,"Integrated into GCPL (slump sale completed 2025-11-10); second-tranche payment (~INR 160 Cr) due ~12 months after signing, i.e. late 2026",5.16,C,1,1,0,4,BUY,hit
+A,Buy,core,FSN E-Commerce Ventures Ltd (Nykaa),Dot & Key,Subsidiary at 90% since 2024-09-20 (39% bought for up to INR 265.3 Cr); FY24 revenue INR 198.3 Cr (7.2x FY22); founders still run it,,C,-1,1,1,1,BUILD,untested
+A,Buy,core,FSN E-Commerce Ventures Ltd (Nykaa),Earth Rhythm,Subsidiary at ~75.83% (converted basis) after second tranche on 2025-06-09; FY24 revenue INR 30.7 Cr (FY22 18.5),,C,-1,1,0,0,BUILD,untested
+A,Buy,core,Emami Ltd,The Man Company,Wholly owned since 2024-11-21; FY24 turnover INR 183 Cr (4.3x FY21),1.96,C,1,1,1,5,BUY,hit
+A,Buy,core,Emami Ltd,Brillare,Wholly owned since 2024-03-27; FY23 turnover INR 19.71 Cr (2x FY21) - still small,,C,1,1,0,4,BUY,untested
+A,Buy,core,Emami Ltd,Dermicool,"Owned brand within Emami (brand/trademark purchase, not a company); post-deal sales UNCONFIRMED",,D,-1,-1,0,-4,BUILD,untested
+A,Buy,core,Honasa Consumer Ltd,Reginald Men,Subsidiary at 95% since 2026-01-06; remaining 5% after 12 months; TTM revenue to Oct-2025 INR 74 Cr,10.34,C,-1,1,1,1,BUILD,miss
+A,Buy,core,Zydus Wellness Ltd,RiteBite Max Protein,Subsidiary at 98.14% from 2024-11-29; balance 1.86% 'expected to be completed shortly' (completion of the last 1.86% UNCONFIRMED),3.03,C,1,1,0,4,BUY,hit
+A,Buy,core,Bajaj Consumer Care Ltd,Banjara's,Wholly owned since 2025-05-16 (tranche 2: 51% for INR 61.18 Cr),2.33,D,-1,-1,0,-4,BUILD,hit
+A,Buy,core,Reliance Industries Ltd (via Reliance Consumer Products Ltd),Lotus Chocolate,"Listed subsidiary of RCPL (51% via SPA plus open offer for up to 26% at INR 115.50/share, offer in Mar 2023); later performance UNCONFIRMED",1.67,D,-1,-1,0,-4,BUILD,hit
+A,Buy,core,Reliance Industries Ltd (via Reliance Consumer Products Ltd),Campa,"Relaunched 2023 and now Reliance's flagship beverage brand; Reliance plans up to INR 8,000 Cr of beverage investment (T4)",,D,-1,-1,0,-4,BUILD,miss
+A,Buy,core,Reliance Industries Ltd (via Reliance Consumer Products Ltd),Sosyo,"50:50 joint venture with the Hajoori family, who keep running the business; later status UNCONFIRMED",,D,-1,-1,0,-4,BUILD,untested
+B,Build,calibration,Hindustan Unilever Ltd,Lever Ayush,Niche,,C,1,1,1,5,BUY,hit
+B,Build,calibration,Hindustan Unilever Ltd,Love Beauty & Planet,Stable,,C,1,1,0,4,BUY,miss
+B,Build,core,Hindustan Unilever Ltd,Acne Squad,Withdrawn,,C,1,1,1,5,BUY,hit
+B,Build,core,Hindustan Unilever Ltd,Find Your Happy Place,Withdrawn,,C,1,0,0,3,BUY,hit
+B,Build,core,Hindustan Unilever Ltd,Novology,Unclear,,C,1,1,0,4,BUY,not scored
+B,Build,core,Marico Ltd,Saffola Immuniveda,Withdrawn,,C,1,spike,0,3,AVOID (spike),hit
+B,Build,core,Marico Ltd,Veggie Clean,Withdrawn,,D,-1,spike,0,-3,AVOID (spike),hit
+B,Build,core,Honasa Consumer Ltd,The Derma Co,Scaled,,C,-1,1,-1,-1,BUILD,hit
+B,Build,core,Honasa Consumer Ltd,Aqualogica,Scaled,,C,-1,1,-1,-1,BUILD,hit
+B,Build,core,Honasa Consumer Ltd,Ayuga,Withdrawn,,C,-1,1,-1,-1,BUILD,miss
+B,Build,core,Honasa Consumer Ltd,Staze,Niche,,C,-1,0,-1,-2,BUILD,miss
+B,Build,core,Godrej Consumer Products Ltd,Godrej Fab,Scaled,,D,-1,0,0,-3,BUILD,hit
+B,Build,core,Godrej Consumer Products Ltd,Godrej Ninja,Niche,,C,1,1,0,4,BUY,hit
+B,Build,calibration,Godrej Consumer Products Ltd,Godrej Protekt,Withdrawn,,D,-1,0,0,-3,BUILD,miss
+B,Build,core,Dabur India Ltd,Dabur Vita,Withdrawn,,D,-1,-1,0,-4,BUILD,miss
+B,Build,core,Tata Consumer Products Ltd,Tata Simply Better,Stable,,C,1,0,0,3,BUY,miss
+B,Build,core,Tata Consumer Products Ltd,Tata GoFit,Niche,,C,1,1,0,4,BUY,hit
+B,Build,calibration,Tata Consumer Products Ltd,Tata Sampann,Scaled,,D,-1,-1,0,-4,BUILD,hit
+B,Build,core,FSN E-Commerce Ventures Ltd (Nykaa),Nykd by Nykaa,Scaled,,C,-1,0,-1,-2,BUILD,hit
+B,Build,calibration,FSN E-Commerce Ventures Ltd (Nykaa),Kay Beauty,Scaled,,C,-1,1,-1,-1,BUILD,hit
+B,Build,calibration,ITC Ltd,Bingo!,Scaled,,D,-1,1,0,-2,BUILD,hit
+B,Build,calibration,ITC Ltd,Sunfeast YiPPee!,Scaled,,D,-1,0,0,-3,BUILD,hit
+B,Build,calibration,ITC Ltd,Fabelle,Niche,,C,-1,0,0,-1,BUILD,miss
+B,Build,core,Bajaj Consumer Care Ltd,Bajaj Zero Grey,Withdrawn,,C,1,0,0,3,BUY,hit
+B,Build,core,Bajaj Consumer Care Ltd,Natyv Soul,Niche,,C,1,0,0,3,BUY,hit
+B,Build,core,Bajaj Consumer Care Ltd,Bajaj 100% Pure,Stable,,D,-1,-1,0,-4,BUILD,hit
+B,Build,core,Zydus Wellness Ltd,I'mlite,Unclear,,D,-1,-1,0,-4,BUILD,not scored
+B,Build,core,Reliance Industries Ltd (via Reliance Consumer Products Ltd),Independence,Scaled,,D,-1,-1,0,-4,BUILD,hit
+B,Build,core,Reliance Industries Ltd (via Reliance Consumer Products Ltd),Campa,Scaled,,D,-1,-1,0,-4,BUILD,hit
